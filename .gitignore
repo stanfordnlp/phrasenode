@@ -1,0 +1,7 @@
+*.pyc
+*.bak
+*.swp
+*.swo
+*~
+
+/data
