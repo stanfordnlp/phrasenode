@@ -26,6 +26,19 @@ export WEBREP_DATA=./data
 - You can also add ad-hoc config strings using the `-c` option. These are applied last.
 - `-n` specifies the experiment directory name.
 
+## Configerations
+
+Here are the configerations used in the final experiments:
+
+* `base.txt`: Used in all experiments
+* `models/encoding.txt`: The embedding-based method
+* `models/alignment.txt`: The alignment-based method
+* `node-embedder/allan.txt`: The node embedder as described in the paper
+* `ablation/*.txt`: Ablation
+
+Note that the visual neighbor is off by default.
+To turn it on, use `general/neighbors.txt`.
+
 ## Experiment management
 
 All training runs are managed by the `PhraseNodeTrainingRuns` object. For example,
