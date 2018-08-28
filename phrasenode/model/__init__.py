@@ -1,11 +1,6 @@
 def create_model(config):
     model_name = config.model.name
-    if model_name == 'embedding':
-        # Dot product between node embedding and phrase embedding
-        node_embedder = create_node_embedder(config)
-        from phrasenode.model.embedding import get_embedding_model
-        model = get_embedding_model(config, node_embedder)
-    elif model_name == 'encoding':
+    if model_name == 'encoding':
         # Dot product between node embedding and phrase embedding
         node_embedder = create_node_embedder(config)
         from phrasenode.model.encoding import get_encoding_model
