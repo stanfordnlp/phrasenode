@@ -67,3 +67,9 @@ Statistics are logged to TensorBoard. To view:
 ```
 tensorboard --logdir=data/experiments
 ```
+
+## Referenece
+
+> Panupong Pasupat, Tian-Shun Jiang, Evan Liu, Kelvin Guu, Percy Liang.  
+> **Mapping natural language commands to web elements.**  
+> Conference on Empirical Methods in Natural Language Processing (EMNLP), 2018.
