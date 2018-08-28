@@ -9,7 +9,7 @@
 
 - PyTorch: Install by following directions from <http://pytorch.org/>.
 
-- Data (UNDER CONSTRUCTION)
+- Data (will be released in a separated repository)
 
 ## Quick start
 
