@@ -1,0 +1,15 @@
+model {
+  node_embedder {
+    name = proppy
+    base_embedder {
+      recursive_texts = True
+      attr_embed_dim = 100
+      max_attr_tokens = 15
+      min_id_freq = 10
+      min_class_freq = 10
+    }
+    propagation {
+      iterations = 0
+    }
+  }
+}

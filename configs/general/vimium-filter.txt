@@ -1,0 +1,5 @@
+# Load the precomputed valid XIDs. Only available for v6 pages
+
+model {
+  node_filter = vimium
+}

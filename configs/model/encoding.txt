@@ -1,0 +1,14 @@
+model {
+  name = encoding
+  dim = 100
+  utterance_embedder {
+    type = average
+    vocab_size = 100000
+    glove_dim = 100
+    max_words = 10
+    trainable = true
+  }
+  node_embedder {
+    name = none   # overwrite in node-embedder config
+  }
+}

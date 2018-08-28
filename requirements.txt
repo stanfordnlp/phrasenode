@@ -1,0 +1,5 @@
+selenium
+numpy
+tqdm
+pillow
+requests

@@ -1,0 +1,36 @@
+# Base config file
+
+timing {
+  max_control_steps = 30000   # max iterations of outer train loop
+  log_freq = 100              # log the loss every X control steps
+  dev_freq = 1000             # evaluate on dev data every X control steps
+  test_freq = 1000       # evaluate on test data every X control steps
+  save_freq = 1000            # save model every X control steps
+}
+
+log {
+  checkpoints {
+    keep_last = 2             # keep this number of last checkpoints
+    keep_every = 10000        # ... and all checkpoints divisible by this
+  }
+}
+
+train {
+  learning_rate = 0.001
+  l2_reg = 0
+  gradient_clip = 10.0
+}
+
+model {
+  ablate_text = false
+  ablate_attrs = false
+  name = null        # use a config mixin to override this
+  node_filter = visibility
+  top_k = 5
+  use_neighbors = false
+  dropout = 0.3
+}
+
+data {
+  dataset = combined-v2-cleaned
+}

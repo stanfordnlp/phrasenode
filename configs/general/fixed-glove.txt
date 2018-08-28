@@ -1,0 +1,5 @@
+model {
+  utterance_embedder {
+    trainable = false
+  }
+}

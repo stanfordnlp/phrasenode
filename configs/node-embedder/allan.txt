@@ -1,0 +1,22 @@
+model {
+  node_embedder {
+    name = allan
+    token_embedder {
+      type = glove
+      vocab_size = 100000
+      glove_dim = 100
+      trainable = true
+    }
+    attr_embedder {
+      type = average
+      max_words = 10
+    }
+    base_embedder {
+      recursive_texts = true
+      attr_embed_dim = 100
+      max_attr_tokens = 15
+      min_id_freq = 10
+      min_class_freq = 10
+    }
+  }
+}

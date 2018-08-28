@@ -1,0 +1,7 @@
+timing {
+  max_control_steps = 100
+  log_freq = 10
+  dev_freq = 50
+  test_freq = 100
+  save_freq = 30
+}

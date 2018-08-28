@@ -1,0 +1,5 @@
+model {
+  node_embedder {
+    name = stupid
+  }
+}
