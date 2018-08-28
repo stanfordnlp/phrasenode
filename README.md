@@ -1,5 +1,10 @@
 # Mapping natural language commands to web elements
 
+## Data
+
+Due to its large size, the data is hosted outside Github:
+<https://nlp.stanford.edu/projects/phrasenode/>
+
 ## Setup
 
 - Python dependencies
@@ -8,8 +13,6 @@
   ```
 
 - PyTorch: Install by following directions from <http://pytorch.org/>.
-
-- Data: <https://nlp.stanford.edu/projects/phrasenode/>
 
 ## Quick start
 
