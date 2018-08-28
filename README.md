@@ -9,7 +9,7 @@
 
 - PyTorch: Install by following directions from <http://pytorch.org/>.
 
-- Data (will be released in a separated repository)
+- Data: <https://nlp.stanford.edu/projects/phrasenode/>
 
 ## Quick start
 
