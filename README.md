@@ -14,6 +14,8 @@ Due to its large size, the data is hosted outside Github:
 
 - PyTorch: Install by following directions from <http://pytorch.org/>.
 
+Alternatively, use the docker image [`ppasupat/phrasenode`](https://hub.docker.com/r/ppasupat/phrasenode/)
+
 ## Quick start
 
 If you just want to see something happen:
