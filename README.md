@@ -73,5 +73,7 @@ tensorboard --logdir=data/experiments
 ## Referenece
 
 > Panupong Pasupat, Tian-Shun Jiang, Evan Liu, Kelvin Guu, Percy Liang.  
-> **Mapping natural language commands to web elements.**  
+> [**Mapping natural language commands to web elements.**](https://arxiv.org/abs/1808.09132)  
 > Conference on Empirical Methods in Natural Language Processing (EMNLP), 2018.
+
+**CodaLab:** <https://worksheets.codalab.org/worksheets/0x0097f249cd944284a81af331093c3579/>
