@@ -3,3 +3,17 @@ numpy
 tqdm
 pillow
 requests
+tensorboard
+tensorboard_logger
+line_profiler
+psycopg2
+pytest
+spacy
+SQLAlchemy
+ipython
+faulthandler
+futures
+jsonpickle
+fabric==1.12.0
+pyhocon
+GitPython
