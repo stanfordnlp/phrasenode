@@ -1,0 +1,25 @@
+## top 3:
+correct: 341
+total: 900
+
+accuracy: 0.3788888889
+
+
+## top 1:
+correct: 186
+total:  900
+
+accuracy: 0.2066666667
+
+
+## top 1: porter stemmer
+correct: 180
+total: 900
+accuracy 0.2
+
+
+## top 5:
+correct: 388
+total: 900
+accuracy 0.4311111111111111
+
