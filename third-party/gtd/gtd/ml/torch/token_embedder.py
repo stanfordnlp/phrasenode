@@ -101,7 +101,7 @@ class TrainFlagEmbedding(Module):
         if trainable:
             embedding = Embedding(
                 num_embeddings, embedding_dim, **kwargs)
-            embedding.weight.data.set_(
+            embedding.weight.data.copy_(
                 torch.from_numpy(initial_embeddings))
             self._embedding = embedding
         else:

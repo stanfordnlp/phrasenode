@@ -6,7 +6,6 @@ requests
 tensorboard
 tensorboard_logger
 line_profiler
-psycopg2
 pytest
 spacy
 SQLAlchemy

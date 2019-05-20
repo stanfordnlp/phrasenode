@@ -7,12 +7,24 @@ Due to its large size, the data is hosted outside Github:
 
 ## Setup
 
-- Python dependencies
+Note that the code requires Python 2.7.
+
+- (Optional) Create a virtualenv / conda environment
   ```
-  pip install requirements.txt
+  virtualenv.py -p python2.7 env
+  source env/bin/activate
   ```
 
-- PyTorch: Install by following directions from <http://pytorch.org/>.
+- Python dependencies
+  ```
+  sudo apt-get install python-dev
+  pip install -r requirements.txt
+  ```
+
+- [PyTorch](http://pytorch.org/). Currently v1.1 should work fine.
+  ```
+  pip install torch
+  ```
 
 Alternatively, use the docker image [`ppasupat/phrasenode`](https://hub.docker.com/r/ppasupat/phrasenode/)
 
@@ -69,6 +81,10 @@ Statistics are logged to TensorBoard. To view:
 ```
 tensorboard --logdir=data/experiments
 ```
+
+## Demo Chrome extension
+
+(under constructions)
 
 ## Referenece
 
