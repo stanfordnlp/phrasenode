@@ -1,3 +1,6 @@
+# If you want to test your element selector code on the extension
+# Use this as a template!
+
 import datetime
 import json
 
