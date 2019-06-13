@@ -86,17 +86,16 @@ tensorboard --logdir=data/experiments
 
 * Start the server with
   ```
-  ./server.py data/experiments/0_encoding-baseline/config.txt -m data/experiments/0_encoding-baseline/checkpoints/10000.checkpoint/model
+  export WEBREP_DATA=./data
+  ./server.py data/experiments/0_testrun/config.txt -m data/experiments/0_testrun/checkpoints/20000.checkpoint/model
   ```
-  where `0_encoding-baseline` should be changed to the model's directory, and `10000` should be changed to the checkpoint number you want.
+  where `0_testrun` should be changed to the model's directory, and `20000` should be changed to the checkpoint number you want.
 
 * Install the unpacked Chrome extension in `demo/phrasenode-demo`
   * Follow the instruction from [here](https://developer.chrome.com/extensions/getstarted#manifest) to load the extension.
-  * The Chrome extension button should now show up on the toolbar
-  * Click on it and enter a phrase in the prompt dialog box.
+  * An extension button should now show up on the toolbar
+  * On any web page, click on the extension button and enter a phrase in the prompt that pops up.
   * If the server does not throw an error, the selected element should be highlighted with a red border. Details can be viewed in the developer console.
-
-  
 
 ## Referenece
 
