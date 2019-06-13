@@ -21,11 +21,6 @@ Note that the code requires Python 2.7.
   pip install -r requirements.txt
   ```
 
-- [PyTorch](http://pytorch.org/). Currently v1.1 should work fine.
-  ```
-  pip install torch
-  ```
-
 Alternatively, use the docker image [`ppasupat/phrasenode`](https://hub.docker.com/r/ppasupat/phrasenode/)
 
 ## Quick start
