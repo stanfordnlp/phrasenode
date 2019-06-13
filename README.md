@@ -87,7 +87,7 @@ tensorboard --logdir=data/experiments
   where `0_testrun` should be changed to the model's directory, and `20000` should be changed to the checkpoint number you want.
 
 * Install the unpacked Chrome extension in `demo/phrasenode-demo`
-  * Follow the instruction from [here](https://developer.chrome.com/extensions/getstarted#manifest) to load the extension.
+  * Follow the instruction from [here](https://developer.chrome.com/extensions/getstarted#manifest) to load the extension. (The manifest file should already be in `demo/phrasenode-demo`)
   * An extension button should now show up on the toolbar
   * On any web page, click on the extension button and enter a phrase in the prompt that pops up.
   * If the server does not throw an error, the selected element should be highlighted with a red border. Details can be viewed in the developer console.
