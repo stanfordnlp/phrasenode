@@ -1,5 +1,6 @@
 selenium
 numpy
+torch
 tqdm
 pillow
 requests
