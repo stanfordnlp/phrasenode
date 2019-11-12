@@ -13,7 +13,13 @@ bash download_dataset.sh
 
 ## Setup
 
-Note that the code requires Python 2.7.
+The code was developed in the following environment:
+
+- Python 2.7
+- Pytorch 0.4.1
+- CUDA 9
+
+To install dependencies:
 
 - (Optional) Create a virtualenv / conda environment
   ```
