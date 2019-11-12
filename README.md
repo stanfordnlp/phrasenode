@@ -38,7 +38,7 @@ export WEBREP_DATA=./data
 - You can also add ad-hoc config strings using the `-c` option. These are applied last.
 - `-n` specifies the experiment directory name.
 
-## Configerations
+## Configurations
 
 Here are the configerations used in the final experiments:
 
