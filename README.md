@@ -5,6 +5,12 @@
 Due to its large size, the data is hosted outside Github:
 <https://nlp.stanford.edu/projects/phrasenode/>
 
+You can download the dataset by running the script as follows.
+
+```
+bash download_dataset.sh
+```
+
 ## Setup
 
 Note that the code requires Python 2.7.
