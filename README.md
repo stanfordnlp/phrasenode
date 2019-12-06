@@ -34,6 +34,7 @@ To install dependencies:
   ```
 
 Alternatively, use the docker image [`ppasupat/phrasenode`](https://hub.docker.com/r/ppasupat/phrasenode/)
+For latest image: `docker pull ppasupat/phrasenode:1.06`
 
 ## Quick start
 
