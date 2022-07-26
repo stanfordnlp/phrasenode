@@ -4,7 +4,7 @@
   "description": "",
   "version": "1",
   "background": {
-    "scripts": [ "jquery-3.4.1.min.js", "background.js" ]
+    "scripts": [ "jquery-3.6.0.min.js", "background.js" ]
   },
   "permissions": [
     "activeTab",
@@ -13,7 +13,7 @@
   "content_scripts": [
     {
       "matches": [ "<all_urls>" ],
-      "js": [ "jquery-3.4.1.min.js", "content.js" ],
+      "js": [ "jquery-3.6.0.min.js", "content.js" ],
       "css": [ "content.css" ]
     }
   ],
